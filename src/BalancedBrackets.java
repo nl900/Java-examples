@@ -26,10 +26,10 @@ public class BalancedBrackets {
 			return false;
 		}	
 		
-        HashMap<Character, Character> table = new HashMap<>();
-        table.put(')', '(');
-        table.put(']', '[');
-        table.put('}', '{');
+        	HashMap<Character, Character> table = new HashMap<>();
+        	table.put(')', '(');
+        	table.put(']', '[');
+        	table.put('}', '{');
 		
 		char bracket;
 		ArrayDeque<Character> stack = new ArrayDeque<>();
