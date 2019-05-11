@@ -49,7 +49,7 @@ public class BalancedBrackets {
 		if (stack.isEmpty()) {
 			return true;
 		}else { 
-			return false; //end of string, should not hit theoretically
+			return false; //end of expression but stack is not empty
 		}
 		
 	}
